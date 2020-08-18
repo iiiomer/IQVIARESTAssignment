@@ -12,7 +12,7 @@ namespace IQVIAAssignment
         static void Main(string[] args)
         {
             
-            using (var sr = File.OpenText(@"C:\Dummy Data.txt"))
+            using (var sr = File.OpenText(@"Dummy Data.txt"))
             {
                 string line;
                 while ((line = sr.ReadLine()) != null)
